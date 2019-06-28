@@ -17,3 +17,5 @@ Install from the [Google Chrome Web Store](https://chrome.google.com/webstore/de
 Click the new reload icon in your extension toolbar and start the auto reload from the popup. To stop the auto reload press the button again or you click away from the popup and when it closes the timer will stop.
 
 ![ss](https://cl.ly/08aff28abf65/Screen%20Recording%202019-06-28%20at%2009.53%20pm.gif)
+
+_yes, I know there are hundreds of these extensions already, but I wanted something super simple that didn't look like ass and doesn't have a 50% chance of ads being injected..._
