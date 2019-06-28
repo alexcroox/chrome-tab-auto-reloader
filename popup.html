@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      body {
+        width: 300px;
+        text-align: center;
+        padding: 30px;
+      }
+
+      button {
+        border-radius: 4px;
+        background-color: #4b8f29;
+        display: inline-block;
+        cursor: pointer;
+        color: #fff;
+        font-size: 13px;
+        padding: 6px 0;
+        width: 265px;
+        text-decoration: none;
+      }
+
+      button.active {
+        background-color: #eb675e;
+      }
+
+      button:focus {
+        outline: none;
+        border: none;
+      }
+
+      p {
+        color: #ccc;
+        font-size: 13px;
+        margin-bottom: 0px;
+      }
+    </style>
+  </head>
+  <body>
+    <button id="toggle-auto-reload">Start auto reloading current tab</button>
+
+    <p>Clicking away from here will stop the auto reload</p>
+
+    <script src="popup.js"></script>
+  </body>
+</html>
